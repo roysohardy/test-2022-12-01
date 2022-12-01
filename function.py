@@ -1,4 +1,3 @@
-square = []
-    for i in range(10):
-        squares.append(i*i)
+square = [i*i for i in range(10)]
+
 print(square)
